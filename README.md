@@ -40,10 +40,43 @@ El receptor está diseñado para funcionar con el módulo nRF24L01, configurado 
 
 ---
 
+## ⚠️ **Precaución** ⚠️  
+
+- El módulo **nRF24L01** debe ser energizado con **3.3V** para evitar daños.  
+- Utiliza un regulador de voltaje si la fuente de alimentación supera los **3.3V**.  
+- Verifica las conexiones antes de energizar el circuito para evitar cortocircuitos o daños en los componentes.  
+
+---
+
+## 📐 **Circuito Eléctrico**  
+
+### **Componentes Necesarios**  
+1. Microcontrolador compatible con Arduino (como Arduino Uno o Nano).  
+2. Módulo nRF24L01.  
+3. Regulador de voltaje (opcional, si la fuente supera 3.3V).  
+4. Fuente de alimentación de 3.3V o batería de 3.7V con regulador.  
+5. Cables de conexión.  
+
+### **Conexiones**  
+| **Módulo RF24L01** | **Microcontrolador** |  
+|--------------------|----------------------|  
+| GND               | GND                  |  
+| VCC               | 3.3V                 |  
+| CE                | Pin 8                |  
+| CSN               | Pin 10               |  
+| SCK               | Pin 13               |  
+| MOSI              | Pin 11               |  
+| MISO              | Pin 12               |  
+
+![receptor](https://github.com/user-attachments/assets/246bc3bf-272c-401c-97e3-52550dad7d5a)
+
+
+---
+
 ## 🛠️ **Requisitos**  
 
 1. **Hardware**:  
-   - Módulo nRF24L01.  
+   - Módulo NRF24L01.  
    - Microcontrolador compatible con Arduino.  
 2. **Software**:  
    - Arduino IDE.  
@@ -86,8 +119,7 @@ Este proyecto está abierto a mejoras y sugerencias. Si tienes ideas o encuentra
 
 ![Monitor Serial](https://via.placeholder.com/500x300)  
 *Monitor serial mostrando mensajes recibidos.*  
-
 ---
 
 **Autor**: [Juan Sotelo](https://github.com/JUANSOTELO1709)  
-📅 Última Actualización: 21 de Diciembre de 2024  
+📅 Última Actualización: 25 de Diciembre de 2024  
