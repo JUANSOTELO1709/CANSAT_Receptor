@@ -110,16 +110,6 @@ El receptor está diseñado para funcionar con el módulo nRF24L01, configurado 
 
 Este proyecto está abierto a mejoras y sugerencias. Si tienes ideas o encuentras errores, no dudes en crear un [issue](https://github.com/JUANSOTELO1709) o enviar un pull request.  
 
----
-
-### 🖼️ **Vista Previa del Sistema**  
-
-![Módulo RF24](https://via.placeholder.com/500x300)  
-*Módulo RF24 conectado al microcontrolador.*  
-
-![Monitor Serial](https://via.placeholder.com/500x300)  
-*Monitor serial mostrando mensajes recibidos.*  
----
 
 **Autor**: [Juan Sotelo](https://github.com/JUANSOTELO1709)  
 📅 Última Actualización: 25 de Diciembre de 2024  
