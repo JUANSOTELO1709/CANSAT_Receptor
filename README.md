@@ -4,11 +4,24 @@ Este proyecto implementa un sistema receptor utilizando un módulo RF24 para rec
 
 ---
 
+
+
 ## 📝 **Descripción del Proyecto**  
 
 El receptor está diseñado para funcionar con el módulo nRF24L01, configurado para escuchar constantemente en una dirección específica. Cuando un mensaje es recibido, este se muestra en el monitor serial.  
 
 ---
+
+---
+
+## ⚠️ **Precaución** ⚠️  
+
+- El módulo **nRF24L01** debe ser energizado con **3.3V** para evitar daños.  
+- Utiliza un regulador de voltaje si la fuente de alimentación supera los **3.3V**.  
+- Verifica las conexiones antes de energizar el circuito para evitar cortocircuitos o daños en los componentes.  
+
+---
+
 
 ## 📂 **Estructura del Código**  
 
@@ -38,15 +51,7 @@ El receptor está diseñado para funcionar con el módulo nRF24L01, configurado 
 - Si no está conectado:  
   - Muestra un mensaje de error en el monitor serial y espera un segundo antes de volver a intentar.  
 
----
 
-## ⚠️ **Precaución** ⚠️  
-
-- El módulo **nRF24L01** debe ser energizado con **3.3V** para evitar daños.  
-- Utiliza un regulador de voltaje si la fuente de alimentación supera los **3.3V**.  
-- Verifica las conexiones antes de energizar el circuito para evitar cortocircuitos o daños en los componentes.  
-
----
 
 ## 📐 **Circuito Eléctrico**  
 
